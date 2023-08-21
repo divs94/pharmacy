@@ -167,3 +167,96 @@ footer h4 {
   font-stretch: condensed;
 
 }
+
+/*  lab test css */
+* {
+  margin: 0;
+  padding:0%;
+
+}
+
+.box-container {
+  display: flex;
+  height: 60vh;
+  min-width:100px;
+  max-width: 900px;
+  box-shadow: 2px 3px 4px 5px rgb(164, 164, 164);
+  margin: auto;
+  margin-top: 50px;
+  overflow: hidden;
+  flex: 0 0 50%;
+  background-image: url("Images/Lab-Test/lab-test.jpg");
+  background-position: right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  
+}
+.box-container #right-half{
+  text-align: center;
+  height: 200px;
+  background: scroll;
+  box-sizing: border-box;
+
+}
+
+
+/* Left- half part*/
+
+.box-container .left-half {
+  flex: 0 0 50%;
+}
+
+.left-half {
+  font-size: 20px;
+  padding: 1rem;
+  padding-right: 0%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+#lab-form h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#lab-form h5 {
+  margin-top: 15px;
+}
+
+#lab-form input {
+  border: 0px solid white;
+  border-bottom: 1px solid rgb(164, 164, 164);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  border: 0px solid white;
+  border: 1px solid rgb(164, 164, 164);
+  padding: 5px;
+}
+
+#lab-form label {
+  color: rgb(94, 92, 92);
+  font-size: medium;
+}
+
+#btn {
+  margin-left: 40%;
+  margin-top: 0px;
+}
+
+#btn button {
+  background-color: rgb(170, 99, 237);
+  color: white;
+  margin: 20px;
+  padding: 7px 15px 7px 15px;
+  border-radius: 7px;
+  border-style: none;
+  font-size: 18px;
+}
+
+#btn button:hover {
+  cursor: pointer;
+  color: rgb(187, 18, 178);
+}
